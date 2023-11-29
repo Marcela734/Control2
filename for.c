@@ -7,7 +7,7 @@ printf("Ingrese cuantas veces se repita: ");
 scanf("%d", &veces);
 
 loop:
-printf("%d iteración \n", count);
+printf("%d iteracion \n", count);
 printf("Ejemplo de for \n\n");
 count++;
 
