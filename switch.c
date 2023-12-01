@@ -29,6 +29,7 @@ int main() {
 
     do {
         printf("Ingrese un numero del 0 al 4, 0 para salir: ");
+        //Si el numero está entre 0 y 4 se va a la etiqueta switch y muestra por consola la opción seleccionada.
         if (scanf("%d", &opcion) == 1) {
             if (opcion >= 0 && opcion <= 4) {
                 Switch(opcion);
@@ -37,7 +38,7 @@ int main() {
             }
         } else {
             printf("Error: Ingrese un numero valido.\n");
-            // Limpiar el búfer de entrada en caso de entrada no válida
+            // Limpiar el búfer en caso de entrada no válida
             while (getchar() != '\n');
         }
     } while (opcion != 0);

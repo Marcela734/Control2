@@ -6,7 +6,7 @@ int main() {
     mientras:
 
     if (count < 7) {
-        printf("Chao mundo :) %d.\n", count + 1);
+        printf("Hola mundo %d.\n", count + 1);
         count++;
         goto mientras;
     }
